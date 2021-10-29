@@ -1,11 +1,11 @@
 # pklc
 lzma compressing pickles
 
-##install
+## install
 pip install pklc
 
-##dump
+## dump
 pklc.dump(variable, 'path_to/variable.pkl')
 
-##load
+## load
 variable = pklc.load('path_to/variable.pkl')
